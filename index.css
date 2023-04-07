@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+
+body {
+  background-color: #000000;
+}
+
+/*font-family: 'Dancing Script', cursive;
+font-family: 'Exo', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;*/
+
+
+/*alerta*/
+.alerta {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #ffffffec;
+  border: 2px solid #000;
+  z-index: 9999;
+  border-radius: 50px;
+}
+
+
+/*alerta*/
+.navbar {
+    position: relative;
+    z-index: 999;
+  }
+  
+  .navbar.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 80px;
+    padding: 0 20px;
+    box-shadow: 0px 0px 10px rgba(255, 183, 0, 0.1);
+    color: white;
+  }
+  
+  .links-menu {
+    display: flex;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .nav-links li {
+    margin: 0 10px 0 30px;
+    
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    transition: font-size 0.5s ease-in-out, color 0.5s ease-in-out;
+  }
+  
+  .nav-links li a:hover {
+    font-size: 18px;
+    color: #ffbb00;
+  }
+
+
+  .logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-right: 150px;
+  }
+  
+  .inome {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    margin-right: 150px;
+  }
+  
+  .inome2 {
+    font-size: 10px;
+    color: white;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    margin-right: 150px;
+  }
+  
+  .event-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .ievento {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  #evento-nome {
+    font-size: 14px;
+    color: #333;
+    margin: 0 10px;
+  }
+  
+  #evento-data {
+    font-size: 12px;
+    color: #ffbb00;
+    margin: 0 10px;
+  }
+
+
+  .banner {
+    height: 900px;
+    background-image: url("/sunday\ service.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 79px;
+    box-shadow: 0px 0px 10px rgba(255, 183, 0, 0.1);
+   
+  }
+
+
+  .sobre-igreja {
+    background-color: white;
+    backdrop-filter: blur(5px); /* define a intensidade do efeito de desfoque */
+  opacity: 0.9; /* define a transparência do elemento */
+    padding: 50px 0;
+
+  }
+
+  .container img{
+    width: 600px;
+    height: 500px;
+  }
+  
+  .titulo {
+    font-size: 36px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .descricao {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-family: 'Exo', sans-serif;
+  }
+  
+  .lista-valores {
+    margin-bottom: 20px;
+    padding-left: 0;
+    margin-left: 15px;
+    font-family: 'Exo', sans-serif;
+  }
+  
+  .lista-valores li {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .botao-cta {
+    display: inline-block;
+    background-color: black;
+    color: #ffbb00;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .botao-cta:hover {
+    background-color: #ffbb00;
+    color: #000000;
+    cursor: pointer;
+  }
+
+
+
+
+
+  .hero {
+    background-color: white;
+    backdrop-filter: blur(5px); /* define a intensidade do efeito de desfoque */
+    opacity: 0.9; /* define a transparência do elemento */
+    padding: 50px 0;
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+  }
+
+ 
+  
+  .tt {
+    font-size: 36px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    text-align: center;
+    color: #ffbb00;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .hero p{
+    font-size: 20px;
+    font:bold;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+  .descricao {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-family: 'Exo', sans-serif;
+  }
+  
+  .lista-valores {
+    margin-bottom: 20px;
+    padding-left: 0;
+    margin-left: 15px;
+    font-family: 'Exo', sans-serif;
+  }
+  
+  .lista-valores li {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .botao-cta {
+    display: inline-block;
+    background-color: black;
+    color: #ffbb00;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .botao-cta:hover {
+    background-color: #ffbb00;
+    color: #000000;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+    .container {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  
